@@ -2,6 +2,70 @@ document.addEventListener("DOMContentLoaded", ()=>{
     
     let words = [
     {
+        en: "squat (squatting)",
+        ru: "приседать, приседание"
+    },
+    {
+        en: "finally",
+        ru: "наконец-то"
+    },
+    {
+        en: "commodity",
+        ru: "товар,продукт, сырьё"
+    },
+    {
+        en: "conjunction",
+        ru: "соединение, союз, сочетание, связь"
+    },
+    {
+        en: "indended (to do)",
+        ru: "предназначен для (что должен делать)"
+    },
+    {
+        en: "generic",
+        ru: "общий"
+    },
+    {
+        en: "narrow down",
+        ru: "сузить"
+    },
+    {
+        en: "accomplish",
+        ru: "выполнить"
+    },
+    {
+        en: "assume",
+        ru: "предполагать, допускать"
+    },
+    {
+        en: "all the bells and whistles",
+        ru: "все фичи, все навороты, полный функционал"
+    },
+    {
+        en: "obsolete",
+        ru: "устаревший"
+    },
+    {
+        en: "assessment",
+        ru: "оценка"
+    },
+    {
+        en: "due diligence",
+        ru: "комплексная проверка"
+    },
+    {
+        en: "due",
+        ru: "должный, надлежащий, соответствующий"
+    },
+    {
+        en: "pertains to",
+        ru: "относится к"
+    },
+    {
+        en: "ensure",
+        ru: "обеспечивать, гарантировать"
+    },
+    {
         en: "milestone",
         ru: "этап, веха (в развитии)"
     },
