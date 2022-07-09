@@ -1,3 +1,10 @@
+.header {
+    margin: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+
 .window {
     border: 3px solid black;
     border-radius: 20px;
@@ -11,6 +18,16 @@
 
 @media (min-width: 650px) {
     .window {
-        margin: 200px 200px;
+        margin: 0 auto;
+        width: 500px;
     }
+}
+
+.vocabulary {
+    text-align: center;
+    font-style: italic;
+}
+
+.vocabulary span {
+    font-style: normal;
 }

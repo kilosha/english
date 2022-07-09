@@ -6,13 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
     { en: 'simply put', ru: 'проще говоря' },
   ];
 
-  let div = document.getElementById('input');
+  let ul = document.getElementById('input');
 
-  let pairs = words.map(wordPair => {
-    let div = document.createElement('div');
-    div.innerHTML = `${wordPair.en} - ${wordPair.ru}`;
-    return div;
-  })
-
-  pairs.forEach(pair => div.append(pair));
+  let pairs = words.map((wordPair) => {
+    ul.innerHTML += `
+      <li>
+        ${wordPair.en} - ${wordPair.ru}
+      </li>
+    `;
+  });
 });
